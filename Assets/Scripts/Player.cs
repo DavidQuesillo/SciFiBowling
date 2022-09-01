@@ -82,9 +82,12 @@ public class Player : MonoBehaviour
         {
             PlayerDeath();
         }
-        if (other.CompareTag("BreakBlock"))
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        /*if (collision.gameObject.CompareTag("BreakBlock"))
         {
-            other.gameObject.SetActive(false);
-        }
+            collision.gameObject.SetActive(false);
+        }*/
     }
 }
