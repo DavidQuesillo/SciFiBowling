@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: afbdd5f355f90f54fbccf7d1c1a40491
+guid: aaae21bb596122d4986d07d4877ddb48
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Amarillo
+    second: {fileID: 2100000, guid: b9bb45b2c71b0de48a8931850d9e3a06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 9613a84996d44044bbfe0f826a3b6c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Negro
+    second: {fileID: 2100000, guid: 9613a84996d44044bbfe0f826a3b6c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Neon
+    second: {fileID: 2100000, guid: 0ba2fd89f7b055949bce95f6abe8f07a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
