@@ -39,7 +39,12 @@ public class Player : MonoBehaviour
 
     public void BuildLaunchForce(Vector3 launcherPos) //recibe la información del dedo para medir el vector de fuerza para el lanzamiento inicial
     {
-        launchVector = new Vector3(rb.position.x - launcherPos.x, 0f, Mathf.Clamp(rb.position.z - launcherPos.z, -2f, 2f));
+        launchVector = new Vector3(Mathf.Clamp(rb.position.x - launcherPos.x, -1.5f, 1.5f), 0f, Mathf.Clamp(rb.position.z - launcherPos.z, 0f, 2f));
+        if (launcherPos.z < -2f)
+        {
+            launchVector.z = 0f;
+        }
+        Debug.Log(launcherPos.ToString());
         //rb.AddForce(launcherPos - rb.position, ForceMode.Impulse);
         //StartCoroutine(AutoKeepMoving());
     }
@@ -47,6 +52,10 @@ public class Player : MonoBehaviour
     {
         if (!gameStarted)
         {
+            if (launchVector.z <= 0f)
+            {
+                return;
+            }
             rb.AddForce(launchVector * launchForce, ForceMode.Impulse);
             StartCoroutine(AutoKeepMoving());
             gameStarted = true;

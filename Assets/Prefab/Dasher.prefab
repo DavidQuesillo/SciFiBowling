@@ -68,6 +68,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1600829131067686093}
     m_Modifications:
+    - target: {fileID: 304525194435889351, guid: f67b8780d941d0c40bd78b0688261320,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 304525194435889351, guid: f67b8780d941d0c40bd78b0688261320,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 304525194435889351, guid: f67b8780d941d0c40bd78b0688261320,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801130278853114905, guid: f67b8780d941d0c40bd78b0688261320,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801130278853114905, guid: f67b8780d941d0c40bd78b0688261320,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801130278853114905, guid: f67b8780d941d0c40bd78b0688261320,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7151974616674670471, guid: f67b8780d941d0c40bd78b0688261320,
         type: 3}
       propertyPath: m_Name
