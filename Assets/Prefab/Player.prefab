@@ -76,6 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38287d54e8b4364a81ad32cc30c667d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxSpeed: 10
   gameStarted: 0
   killHeight: -5
   sideSwipeForce: 5

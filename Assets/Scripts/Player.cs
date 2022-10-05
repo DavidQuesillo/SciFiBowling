@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     private Rigidbody rb;
     private bool stageComplete;
+    [SerializeField] private float maxSpeed;
     public bool gameStarted; //distingue si la partida se ha iniciado, si se ha lanzado la bola aún o no
     [SerializeField] private float killHeight = -5f;
     [Tooltip("La fuerza con la que se empuja a la bola al hacer swipe durante la partida")] [SerializeField] private float sideSwipeForce = 5f;
@@ -31,6 +32,10 @@ public class Player : MonoBehaviour
         {
             PlayerDeath();
         }
+    }
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, Mathf.Clamp(rb.velocity.z, 0f, maxSpeed));
     }
     private void PlayerDeath()
     {

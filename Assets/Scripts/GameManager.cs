@@ -10,7 +10,14 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        instance = this; //gamemanager.instance se asigna a este script en este objeto en el juego
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this; //gamemanager.instance se asigna a este script en este objeto en el juego
+        }        
     }
 
     void Update()
@@ -31,5 +38,13 @@ public class GameManager : MonoBehaviour
     public void RetryLevel() //código placeholder adentro
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void SaveValues()
+    {
+        Data.GetGameData().SetCoins(coins);
+        //Data.GetGame().SetHP(player.GetHealth());
+
+        Data.Save();
     }
 }
