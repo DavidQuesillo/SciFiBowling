@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: 6f4c1725b0ec9054bbd8fb7358561055
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1238
+        width: 1504
+        height: 2176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6954d74c59d9244a1a98efd236c3fd
+      internalID: -1942715307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_1
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 3098
+        width: 391
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafd271b2c6722248a683d0c37605104
+      internalID: -556449614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_2
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 2684
+        width: 301
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d21e3d7417224bbdc86e3cf58b1f2
+      internalID: 509646444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_3
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2684
+        width: 299
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fd743a743a39e47a9e624d9f5e8b8f
+      internalID: -154623386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_4
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 2686
+        width: 300
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24f6d16eaef56d4c901ed82c585123e
+      internalID: 1059182300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_5
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 2293
+        width: 301
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50f0c7a8d2fdd34ab3d51fdacf7d2a3
+      internalID: 1371392033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_6
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 2293
+        width: 299
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac6a415ffddd2749a3fbff565e8573f
+      internalID: -728570443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_7
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 2295
+        width: 300
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1038c66aa3068a648bf46121bc7626a2
+      internalID: -805787236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_8
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1910
+        width: 301
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40995018d0cbd2844b968090be086ede
+      internalID: 1140868854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_9
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 1910
+        width: 303
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3344e38c81e494db46b088e3c04037
+      internalID: -689863526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_11
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 1912
+        width: 302
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ac1da08ce26404bbb0bee394c65af7
+      internalID: -105628180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_16
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1530
+        width: 320
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346ac611dad13a14497f7a203d3dbb26
+      internalID: 905141645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_17
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1163
+        width: 243
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f344176cb83552f4b8aad5d4c64b45e2
+      internalID: -1372978469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_18
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1160
+        width: 260
+        height: 230
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66916bb4f06e0b1428cf5ea8a15d4f09
+      internalID: -1720638855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_19
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1140
+        width: 249
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0b9ceec69071e499df328ee0ad0e54
+      internalID: -1430838543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_20
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 855
+        width: 239
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d292c666a8277474886d57ed24f08482
+      internalID: -881713567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_21
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 855
+        width: 251
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d351799b66d4d947bcc95b92763183d
+      internalID: 455704505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_22
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 768
+        width: 241
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865761285b6d0d0408169b5848def9ba
+      internalID: 415605761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_23
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 770
+        width: 226
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc28f293cf147bc41b4cfd89b0b3e2be
+      internalID: 902766806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_24
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 775
+        width: 227
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e787c0643ff4cb4bba3c21d4e077d84
+      internalID: 1340404621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_30
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 375
+        width: 230
+        height: 229
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e033104bfc61644ca071200027b4ab3
+      internalID: -185587414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_32
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 373
+        width: 227
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eded997174eecc4187b21653e41094a
+      internalID: -791889673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_33
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 377
+        width: 215
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4667fe2428f8c4ba8f44be93b6b1e6
+      internalID: -770452044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_46
+      rect:
+        serializedVersion: 2
+        x: 1966
+        y: 15
+        width: 237
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1165b95d72540a24f874b017515a614b
+      internalID: 134555404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_12
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 527
+        width: 371
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21773cde7101c24fa171fbdabe916d2
+      internalID: 1929885540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_13
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 311
+        width: 326
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6f232d868cb4645b9e3ed0a506d17a
+      internalID: -384657245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeleccionBolaEjemplo_25
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 66
+        width: 340
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dd0d63afe86db4081c44afaedc2cc2
+      internalID: 1605003695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SeleccionBolaEjemplo_35: 1492254728
+      SeleccionBolaEjemplo_47: 1972243871
+      SeleccionBolaEjemplo_10: 1698934049
+      SeleccionBolaEjemplo_31: -555041749
+      SeleccionBolaEjemplo_11: -105628180
+      SeleccionBolaEjemplo_29: 1902674736
+      SeleccionBolaEjemplo_25: 1605003695
+      SeleccionBolaEjemplo_1: -556449614
+      SeleccionBolaEjemplo_44: 2092589966
+      SeleccionBolaEjemplo_2: 509646444
+      SeleccionBolaEjemplo_30: -185587414
+      SeleccionBolaEjemplo_24: 1340404621
+      SeleccionBolaEjemplo_46: 134555404
+      SeleccionBolaEjemplo_7: -805787236
+      SeleccionBolaEjemplo_39: 2048095892
+      SeleccionBolaEjemplo_4: 1059182300
+      SeleccionBolaEjemplo_9: -689863526
+      SeleccionBolaEjemplo_12: 1929885540
+      SeleccionBolaEjemplo_6: -728570443
+      SeleccionBolaEjemplo_40: 1894175102
+      SeleccionBolaEjemplo_34: -1533819739
+      SeleccionBolaEjemplo_8: 1140868854
+      SeleccionBolaEjemplo_28: -422895155
+      SeleccionBolaEjemplo_17: -1372978469
+      SeleccionBolaEjemplo_5: 1371392033
+      SeleccionBolaEjemplo_36: -2049051309
+      SeleccionBolaEjemplo_16: 905141645
+      SeleccionBolaEjemplo_32: -791889673
+      SeleccionBolaEjemplo_52: 31492393
+      SeleccionBolaEjemplo_18: -1720638855
+      SeleccionBolaEjemplo_21: 455704505
+      SeleccionBolaEjemplo_53: -782902161
+      SeleccionBolaEjemplo_43: -1501206277
+      SeleccionBolaEjemplo_38: 1358012579
+      SeleccionBolaEjemplo_50: 2025827579
+      SeleccionBolaEjemplo_3: -154623386
+      SeleccionBolaEjemplo_41: 1338272828
+      SeleccionBolaEjemplo_42: -1935406608
+      SeleccionBolaEjemplo_20: -881713567
+      SeleccionBolaEjemplo_15: -2019734627
+      SeleccionBolaEjemplo_23: 902766806
+      SeleccionBolaEjemplo_13: -384657245
+      SeleccionBolaEjemplo_0: -1942715307
+      SeleccionBolaEjemplo_26: -148949727
+      SeleccionBolaEjemplo_51: -661470240
+      SeleccionBolaEjemplo_48: -1264137423
+      SeleccionBolaEjemplo_49: 1692480651
+      SeleccionBolaEjemplo_37: -137617590
+      SeleccionBolaEjemplo_14: 503594355
+      SeleccionBolaEjemplo_22: 415605761
+      SeleccionBolaEjemplo_33: -770452044
+      SeleccionBolaEjemplo_27: 31275489
+      SeleccionBolaEjemplo_19: -1430838543
+      SeleccionBolaEjemplo_45: 718324567
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
