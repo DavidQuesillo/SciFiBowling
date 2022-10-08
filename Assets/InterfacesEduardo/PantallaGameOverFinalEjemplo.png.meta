@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: 2e89dfd1f5608fa48982c277164997d5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2260
+        width: 1394
+        height: 2171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb9a7a64f8425e459b35b672c56469f
+      internalID: 501628701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_12
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 3820
+        width: 184
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f90865678a5de41b01cb8f504ad87f
+      internalID: 1936766607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_13
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 3794
+        width: 81
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6515059eb7cbdb34da7307cad8f31a9f
+      internalID: 670604241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_14
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 3629
+        width: 876
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da92fd12691618349825e81aa6869902
+      internalID: 147501816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_15
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 3137
+        width: 234
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 664da3f7afe34f74497878f165e3d50b
+      internalID: 102690118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_16
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 3262
+        width: 257
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53e8c2981aebb547827a2ef568823c7
+      internalID: 50541092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_17
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 2789
+        width: 101
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f2502772a7c2241b656ddf90f6d0be
+      internalID: -1136286861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_18
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2422
+        width: 318
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881aa1e10549dc048acb25ab08e1242d
+      internalID: -837682512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_19
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 2422
+        width: 318
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc15616af382a649bbf847518908d3a
+      internalID: 1483275728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 30
+        width: 1394
+        height: 2168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f613765e35da32e45a987d1c8876ed3f
+      internalID: 1611927321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_9
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 3821
+        width: 164
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337b555c896aa1244a2aace98c17b91a
+      internalID: -2067325069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PantallaGameOverFinalEjemplo_2
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 3996
+        width: 827
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa53ef74ae8f2b24b890de7c23f260a8
+      internalID: -1384331820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 733afc1b0b48daa45bd802899ed55757
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PantallaGameOverFinalEjemplo_1: 1264997338
+      PantallaGameOverFinalEjemplo_10: -2018377658
+      PantallaGameOverFinalEjemplo_12: 1936766607
+      PantallaGameOverFinalEjemplo_2: -1384331820
+      PantallaGameOverFinalEjemplo_8: 1963376303
+      PantallaGameOverFinalEjemplo_13: 670604241
+      PantallaGameOverFinalEjemplo_7: -1554015203
+      PantallaGameOverFinalEjemplo_11: 715773144
+      PantallaGameOverFinalEjemplo_15: 102690118
+      PantallaGameOverFinalEjemplo_17: -1136286861
+      PantallaGameOverFinalEjemplo_4: 1082522358
+      PantallaGameOverFinalEjemplo_0: 501628701
+      PantallaGameOverFinalEjemplo_14: 147501816
+      PantallaGameOverFinalEjemplo_18: -837682512
+      PantallaGameOverFinalEjemplo_16: 50541092
+      PantallaGameOverFinalEjemplo_19: 1483275728
+      PantallaGameOverFinalEjemplo_5: 894240583
+      PantallaGameOverFinalEjemplo_9: -2067325069
+      PantallaGameOverFinalEjemplo_6: 1593842779
+      PantallaGameOverFinalEjemplo_20: 1611927321
+      PantallaGameOverFinalEjemplo_3: -765820927
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
