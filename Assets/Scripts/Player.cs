@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     private Rigidbody rb;
     private bool stageComplete;
+    [SerializeField] private float maxSpeed;
     public bool gameStarted; //distingue si la partida se ha iniciado, si se ha lanzado la bola aún o no
     [SerializeField] private float killHeight = -5f;
     [Tooltip("La fuerza con la que se empuja a la bola al hacer swipe durante la partida")] [SerializeField] private float sideSwipeForce = 5f;
@@ -32,6 +33,10 @@ public class Player : MonoBehaviour
             PlayerDeath();
         }
     }
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, Mathf.Clamp(rb.velocity.z, 0f, maxSpeed));
+    }
     private void PlayerDeath()
     {
         GameManager.instance.RetryLevel(); //llama la función del gamemanager de gameover
@@ -39,12 +44,7 @@ public class Player : MonoBehaviour
 
     public void BuildLaunchForce(Vector3 launcherPos) //recibe la información del dedo para medir el vector de fuerza para el lanzamiento inicial
     {
-        launchVector = new Vector3(Mathf.Clamp(rb.position.x - launcherPos.x, -1.5f, 1.5f), 0f, Mathf.Clamp(rb.position.z - launcherPos.z, 0f, 2f));
-        if (launcherPos.z < -2f)
-        {
-            launchVector.z = 0f;
-        }
-        Debug.Log(launcherPos.ToString());
+        launchVector = new Vector3(rb.position.x - launcherPos.x, 0f, Mathf.Clamp(rb.position.z - launcherPos.z, -2f, 2f));
         //rb.AddForce(launcherPos - rb.position, ForceMode.Impulse);
         //StartCoroutine(AutoKeepMoving());
     }
@@ -52,10 +52,6 @@ public class Player : MonoBehaviour
     {
         if (!gameStarted)
         {
-            if (launchVector.z <= 0f)
-            {
-                return;
-            }
             rb.AddForce(launchVector * launchForce, ForceMode.Impulse);
             StartCoroutine(AutoKeepMoving());
             gameStarted = true;
