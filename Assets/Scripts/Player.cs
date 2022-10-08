@@ -35,7 +35,11 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, Mathf.Clamp(rb.velocity.z, 0f, maxSpeed));
+        //rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, Mathf.Clamp(rb.velocity.z, 0f, maxSpeed));
+        if (rb.velocity.magnitude > maxSpeed)
+        {
+            rb.velocity = rb.velocity.normalized * maxSpeed;
+        }
     }
     private void PlayerDeath()
     {
