@@ -309,7 +309,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.08715349, y: 0.00000001916412, z: -0.0000000016765995, w: 0.9961949}
+  m_LocalRotation: {x: 0.08715349, y: -0.000000019164116, z: 0.0000000016765992, w: 0.9961949}
   m_LocalPosition: {x: 0, y: 3.32, z: -5.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1082,7 +1082,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh27804
+  m_Name: pb_Mesh38816
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2128,7 +2128,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1858
+  m_Name: pb_Mesh-52852
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2293,6 +2293,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1503737655480041492, guid: c36818f22db2ba843b288d2ddd5b8b89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.5671997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2729907063321078301, guid: c36818f22db2ba843b288d2ddd5b8b89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.3999634
+      objectReference: {fileID: 0}
+    - target: {fileID: 3314529965226272997, guid: c36818f22db2ba843b288d2ddd5b8b89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.3999634
+      objectReference: {fileID: 0}
+    - target: {fileID: 6691498651924152935, guid: c36818f22db2ba843b288d2ddd5b8b89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1.3999634
+      objectReference: {fileID: 0}
     - target: {fileID: 7242486824622785553, guid: c36818f22db2ba843b288d2ddd5b8b89,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2402,6 +2422,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: UI Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970790351955592983, guid: c36818f22db2ba843b288d2ddd5b8b89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.8327942
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986193455075325297, guid: c36818f22db2ba843b288d2ddd5b8b89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.8327942
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c36818f22db2ba843b288d2ddd5b8b89, type: 3}
@@ -2989,7 +3019,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1804
+  m_Name: pb_Mesh-52798
   serializedVersion: 10
   m_SubMeshes: []
   m_Shapes:
@@ -3412,12 +3442,12 @@ PrefabInstance:
     - target: {fileID: 2517272064863347768, guid: 89003d2dff5258846a571ddd5781576e,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000001916412
+      value: -0.000000019164116
       objectReference: {fileID: 0}
     - target: {fileID: 2517272064863347768, guid: 89003d2dff5258846a571ddd5781576e,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000016765995
+      value: 0.0000000016765992
       objectReference: {fileID: 0}
     - target: {fileID: 2517272064863347768, guid: 89003d2dff5258846a571ddd5781576e,
         type: 3}

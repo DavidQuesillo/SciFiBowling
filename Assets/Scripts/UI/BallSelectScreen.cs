@@ -6,8 +6,11 @@ using UnityEngine.UI;
 public class BallSelectScreen : MonoBehaviour
 {
     [SerializeField] private int selectedBall;
-    [SerializeField] private int currentId;
+    //[SerializeField] private int currentId;
     [SerializeField] private Image preview;
+    [SerializeField] private Image accelMeter;
+    [SerializeField] private Image speedMeter;
+    [SerializeField] private Image bounceMeter;
     //[SerializeField] private Sprite[] ballIcons = new Sprite[10];
     [SerializeField] private List<Balls> balls;
 
@@ -32,16 +35,20 @@ public class BallSelectScreen : MonoBehaviour
                 if (balls[i].id == newBallID)
                 {
                     selectedBall = i;
-                    //currentId = newBallID;
                 }
             }
+            DisplayBallInfo();
             //selectedBall = newBallID;
+            Debug.Log("ball chosen");
         }
+        Debug.Log("Button pressed");
     }
 
-    public void DisplayBallInfo(int ballID)
+    public void DisplayBallInfo()
     {
-       preview.sprite = balls[selectedBall].icon;
-
+        preview.sprite = balls[selectedBall].icon;
+        accelMeter.fillAmount = balls[selectedBall].accelStat;
+        speedMeter.fillAmount = balls[selectedBall].maxSpeedStat;
+        bounceMeter.fillAmount = balls[selectedBall].bounceStat;
     }
 }
