@@ -760,7 +760,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.65
+  m_fontSize: 27.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1343,13 +1343,14 @@ GameObject:
   - component: {fileID: 91407340430337055}
   - component: {fileID: 6688658463436272279}
   - component: {fileID: 2095463127597436285}
+  - component: {fileID: 6181377568877716080}
   m_Layer: 5
   m_Name: Ball Select UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &91407340430337055
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1431,6 +1432,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6181377568877716080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118980666594589400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7690946cc46a10b44857e7dde46d0004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedBall: 0
+  currentId: 0
+  preview: {fileID: 0}
+  balls: []
 --- !u!1 &1330276345497761117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,7 +1677,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 13.7
+  m_fontSize: 14.1
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3847,7 +3864,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14.55
+  m_fontSize: 15
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -7290,7 +7307,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14.55
+  m_fontSize: 15
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11985,7 +12002,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3719351351161723714}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6181377568877716080}
+        m_TargetAssemblyTypeName: BallSelectScreen, Assembly-CSharp
+        m_MethodName: ChooseBall
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8546789593874950167
 GameObject:
   m_ObjectHideFlags: 0

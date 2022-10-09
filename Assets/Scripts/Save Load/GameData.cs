@@ -2,18 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Balls
-{
-    basic,    fuego,    pokemon,    patron1,    patron2,
-    basket,    bowling,    mina,    dragon,     verde
-}
-
 public class GameData : MonoBehaviour
 {
     //[SerializeField] private int hp;
     [SerializeField] private int coins;
-    [SerializeField] private List<bool> ballsUnlocked;
-    [SerializeField] private Balls ballSelected;
+    [SerializeField] private List<Balls> ballsUnlocked;
+    //[SerializeField] private Balls ballSelected;
     [SerializeField] private int levelsBeat;
 
 
@@ -38,13 +32,27 @@ public class GameData : MonoBehaviour
         return levelsBeat;
     }
 
-    public void UnlockBall(int newBallIndex)
+    public void UnlockBall(int newBallId)
     {
-        ballsUnlocked[newBallIndex] = true;
+        for (int i = 0; i < ballsUnlocked.Count; i++)
+        {
+            if (ballsUnlocked[i].id == newBallId)
+            {
+                ballsUnlocked[i].isUnlocked = true;
+            }
+        }
+        //ballsUnlocked[newBallIndex].isUnlocked = true;
     }
-    public bool CheckIfBallUnlocked(int ballIndex)
+    public bool CheckIfBallUnlocked(int ballId)
     {
-        return ballsUnlocked[ballIndex];
+        for (int i = 0; i < ballsUnlocked.Count; i++)
+        {
+            if (ballsUnlocked[i].id == ballId && ballsUnlocked[i].isUnlocked)
+            {
+                return true;                
+            }
+        }
+        return false;
     }
 
     /*public int GetHP()
