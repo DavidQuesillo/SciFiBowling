@@ -101,7 +101,7 @@ MonoBehaviour:
   ballName: Volkano
   price: 0
   isUnlocked: 1
-  icon: {fileID: 21300000, guid: 2674043f67e74064f9b53ec3c04ecd47, type: 3}
+  icon: {fileID: 21300000, guid: d00d69193a1d44045bb68a52b2ed6bc4, type: 3}
   accelStat: 0
   maxSpeedStat: 0
   bounceStat: 0

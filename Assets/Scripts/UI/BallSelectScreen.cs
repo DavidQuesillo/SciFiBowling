@@ -17,7 +17,21 @@ public class BallSelectScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //selectedBall = Data.GetGameData().GetSelectedBall();
+        if (Data.GetGameData().GetSelectedBall() == null)
+        {
+            Debug.Log("No ball");
+            Data.GetGameData().SetSelectedBall(balls[0]);
+        }
+        Debug.Log(Data.GetGameData().GetSelectedBall().ToString());
+        for (int i = 0; i < balls.Count; i++)
+        {
+            if (balls[i].id == Data.GetGameData().GetSelectedBall().id)
+            {
+                selectedBall = i;
+            }
+        }
+        DisplayBallInfo();
     }
 
     // Update is called once per frame
@@ -37,9 +51,11 @@ public class BallSelectScreen : MonoBehaviour
                     selectedBall = i;
                 }
             }
-            DisplayBallInfo();
+
+            Data.GetGameData().SetSelectedBall(balls[selectedBall]);
+            DisplayBallInfo();            
             //selectedBall = newBallID;
-            Debug.Log("ball chosen");
+            Debug.Log(Data.GetGameData().GetSelectedBall().ballName);
         }
         Debug.Log("Button pressed");
     }

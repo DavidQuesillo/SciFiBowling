@@ -13,7 +13,7 @@ public static class Data
 
     private static GameData gameData;
 
-    public static GameData GetGameData() //this should be called GetGameData
+    public static GameData GetGameData()
     {
         return gameData;
     }

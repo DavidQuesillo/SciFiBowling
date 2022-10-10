@@ -7,6 +7,7 @@ public class GameData : MonoBehaviour
     //[SerializeField] private int hp;
     [SerializeField] private int coins;
     [SerializeField] private List<Balls> ballsUnlocked;
+    [SerializeField] private Balls selectedBall;
     //[SerializeField] private Balls ballSelected;
     [SerializeField] private int levelsBeat;
 
@@ -30,6 +31,14 @@ public class GameData : MonoBehaviour
     public int GetLevelsBeat()
     {
         return levelsBeat;
+    }
+    public Balls GetSelectedBall()
+    {
+        return selectedBall;
+    }
+    public void SetSelectedBall(Balls newBall)
+    {
+        selectedBall = newBall;
     }
 
     public void UnlockBall(int newBallId)
