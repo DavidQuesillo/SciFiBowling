@@ -9,7 +9,7 @@ public class GameData : MonoBehaviour
     [SerializeField] private List<Balls> ballsUnlocked;
     [SerializeField] private Balls selectedBall;
     //[SerializeField] private Balls ballSelected;
-    [SerializeField] private int levelsBeat;
+    [SerializeField] private int levelsBeat = 0;
 
 
     public GameData()

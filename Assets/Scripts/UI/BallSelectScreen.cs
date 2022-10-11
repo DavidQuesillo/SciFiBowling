@@ -53,6 +53,7 @@ public class BallSelectScreen : MonoBehaviour
             }
 
             Data.GetGameData().SetSelectedBall(balls[selectedBall]);
+            Data.Save();
             DisplayBallInfo();            
             //selectedBall = newBallID;
             Debug.Log(Data.GetGameData().GetSelectedBall().ballName);
