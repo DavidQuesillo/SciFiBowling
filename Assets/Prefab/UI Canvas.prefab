@@ -844,7 +844,7 @@ GameObject:
   - component: {fileID: 5833726394225730005}
   - component: {fileID: 1314389634311383794}
   m_Layer: 5
-  m_Name: boton bola 4
+  m_Name: boton bola 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -865,7 +865,7 @@ RectTransform:
   - {fileID: 9210640666108781456}
   - {fileID: 1367395396065772802}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.21347672, y: 0.19158815}
   m_AnchorMax: {x: 0.38927248, y: 0.3134632}
@@ -935,7 +935,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1544,7 +1544,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &91407340430337055
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1574,14 +1574,14 @@ RectTransform:
   - {fileID: 4585539933338328062}
   - {fileID: 2806277602993004677}
   - {fileID: 1141108029719401692}
-  - {fileID: 7845330547901141960}
   - {fileID: 2107988894783998638}
-  - {fileID: 1503737655480041492}
   - {fileID: 8986193455075325297}
-  - {fileID: 6691498651924152935}
   - {fileID: 8970790351955592983}
-  - {fileID: 2729907063321078301}
   - {fileID: 674097617036744337}
+  - {fileID: 7845330547901141960}
+  - {fileID: 1503737655480041492}
+  - {fileID: 6691498651924152935}
+  - {fileID: 2729907063321078301}
   - {fileID: 3314529965226272997}
   - {fileID: 4128343113434881205}
   m_Father: {fileID: 7242486824622785553}
@@ -1658,6 +1658,17 @@ MonoBehaviour:
   - {fileID: 1995924171613980918, guid: 6640bfecb1452ea498c197f43eb2e0e3, type: 3}
   - {fileID: 1995924171613980918, guid: df56d5b306e9707458552eb69a5ede93, type: 3}
   - {fileID: 1995924171613980918, guid: 310830807a8e2414eaaf24932efc519b, type: 3}
+  buttons:
+  - {fileID: 5135047942003239576}
+  - {fileID: 1869463631412204960}
+  - {fileID: 1171474622081271588}
+  - {fileID: 6570089153333499337}
+  - {fileID: 3662997445241033057}
+  - {fileID: 2097016232251796400}
+  - {fileID: 1314389634311383794}
+  - {fileID: 3708857762651992835}
+  - {fileID: 3194685759474445423}
+  - {fileID: 7432167083119479234}
 --- !u!1 &1330276345497761117
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,7 +2090,7 @@ GameObject:
   - component: {fileID: 8986918047573806915}
   - component: {fileID: 1171474622081271588}
   m_Layer: 5
-  m_Name: boton bola 5
+  m_Name: boton bola 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2100,7 +2111,7 @@ RectTransform:
   - {fileID: 1705462136886563377}
   - {fileID: 1961445113714527207}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.4178293, y: 0.3825619}
   m_AnchorMax: {x: 0.5878981, y: 0.5045637}
@@ -2170,7 +2181,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2953,7 +2964,7 @@ GameObject:
   - component: {fileID: 1280870446845199621}
   - component: {fileID: 3194685759474445423}
   m_Layer: 5
-  m_Name: boton bola 8
+  m_Name: boton bola 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2974,7 +2985,7 @@ RectTransform:
   - {fileID: 1879884149224111573}
   - {fileID: 3070850994102893179}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6067296, y: 0.19158816}
   m_AnchorMax: {x: 0.7825029, y: 0.31346318}
@@ -3044,7 +3055,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3953,7 +3964,7 @@ GameObject:
   - component: {fileID: 2969932777032513874}
   - component: {fileID: 1869463631412204960}
   m_Layer: 5
-  m_Name: boton bola 3
+  m_Name: boton bola 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3974,7 +3985,7 @@ RectTransform:
   - {fileID: 8877635765323879266}
   - {fileID: 8859181796807352410}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.21347672, y: 0.3825619}
   m_AnchorMax: {x: 0.38927245, y: 0.50456375}
@@ -4044,7 +4055,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4179,7 +4190,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5283,7 +5294,7 @@ GameObject:
   - component: {fileID: 4550317560787319162}
   - component: {fileID: 6570089153333499337}
   m_Layer: 5
-  m_Name: boton bola 7
+  m_Name: boton bola 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5304,7 +5315,7 @@ RectTransform:
   - {fileID: 5908434160284866363}
   - {fileID: 8458430444905531779}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 22
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.6067296, y: 0.38256195}
   m_AnchorMax: {x: 0.7825029, y: 0.50456375}
@@ -5374,7 +5385,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -5691,7 +5702,7 @@ GameObject:
   - component: {fileID: 4786425979066259155}
   - component: {fileID: 3662997445241033057}
   m_Layer: 5
-  m_Name: boton bola 9
+  m_Name: boton bola 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5712,7 +5723,7 @@ RectTransform:
   - {fileID: 5465403102275897705}
   - {fileID: 1470251576183159297}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 24
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8029496, y: 0.38256195}
   m_AnchorMax: {x: 0.9787228, y: 0.50456375}
@@ -5782,7 +5793,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -6778,7 +6789,7 @@ GameObject:
   - component: {fileID: 3085492768762051730}
   - component: {fileID: 2097016232251796400}
   m_Layer: 5
-  m_Name: boton bola 2
+  m_Name: boton bola 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6799,7 +6810,7 @@ RectTransform:
   - {fileID: 7848212997321365285}
   - {fileID: 4260886296969658230}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 17
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.026787512, y: 0.19158816}
   m_AnchorMax: {x: 0.20253666, y: 0.31346318}
@@ -6869,7 +6880,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -7471,7 +7482,7 @@ GameObject:
   - component: {fileID: 8019986866667434724}
   - component: {fileID: 3708857762651992835}
   m_Layer: 5
-  m_Name: boton bola 6
+  m_Name: boton bola 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7492,7 +7503,7 @@ RectTransform:
   - {fileID: 3636572306084926488}
   - {fileID: 7847984811924075652}
   m_Father: {fileID: 91407340430337055}
-  m_RootOrder: 21
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41782933, y: 0.19158816}
   m_AnchorMax: {x: 0.5878981, y: 0.31346318}
@@ -7562,7 +7573,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -12763,7 +12774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6131839394590380790
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13725,7 +13736,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:

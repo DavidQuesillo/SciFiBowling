@@ -13,10 +13,17 @@ public class BallSelectScreen : MonoBehaviour
     [SerializeField] private Image bounceMeter;
     //[SerializeField] private Sprite[] ballIcons = new Sprite[10];
     [SerializeField] private List<Balls> balls;
+    [SerializeField] private List<Button> buttons;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (Data.GetGameData().ballsUnlocked == null)
+        {
+            Data.GetGameData().ballsUnlocked = balls;
+            Data.Save();
+        }
+        Debug.Log(balls[0].isUnlocked.ToString());
         //selectedBall = Data.GetGameData().GetSelectedBall();
         if (Data.GetGameData().GetSelectedBall() == null)
         {
@@ -24,8 +31,18 @@ public class BallSelectScreen : MonoBehaviour
             Data.GetGameData().SetSelectedBall(balls[0]);
         }
         Debug.Log(Data.GetGameData().GetSelectedBall().ToString());
+
         for (int i = 0; i < balls.Count; i++)
         {
+            if (balls[i].isUnlocked == false)
+            {
+                buttons[i].interactable = false;
+            }
+            else
+            {
+                buttons[i].interactable = true;
+            }
+
             if (balls[i].id == Data.GetGameData().GetSelectedBall().id)
             {
                 selectedBall = i;
@@ -53,7 +70,6 @@ public class BallSelectScreen : MonoBehaviour
             }
 
             Data.GetGameData().SetSelectedBall(balls[selectedBall]);
-            Data.Save();
             DisplayBallInfo();            
             //selectedBall = newBallID;
             Debug.Log(Data.GetGameData().GetSelectedBall().ballName);

@@ -6,7 +6,7 @@ public class GameData : MonoBehaviour
 {
     //[SerializeField] private int hp;
     [SerializeField] private int coins;
-    [SerializeField] private List<Balls> ballsUnlocked;
+    [SerializeField] public List<Balls> ballsUnlocked;
     [SerializeField] private Balls selectedBall;
     //[SerializeField] private Balls ballSelected;
     [SerializeField] private int levelsBeat = 0;
@@ -19,6 +19,14 @@ public class GameData : MonoBehaviour
         this.coins = 0;
     }
 
+    private void Awake()
+    {
+        for (int i = 0; i < ballsUnlocked.Count; i++)
+        {
+
+        }
+    }
+
     public int GetCoins()
     {
         return coins;
@@ -27,6 +35,7 @@ public class GameData : MonoBehaviour
     public void LevelBeaten(int lvlBeaten)
     {
         levelsBeat = lvlBeaten;
+        Data.Save();
     }
     public int GetLevelsBeat()
     {
@@ -39,7 +48,13 @@ public class GameData : MonoBehaviour
     public void SetSelectedBall(Balls newBall)
     {
         selectedBall = newBall;
+        Data.Save();
     }
+
+    /*public List<Balls> GetBallsList()
+    {
+       return  ballsUnlocked;
+    }*/
 
     public void UnlockBall(int newBallId)
     {
@@ -50,6 +65,7 @@ public class GameData : MonoBehaviour
                 ballsUnlocked[i].isUnlocked = true;
             }
         }
+        Data.Save();
         //ballsUnlocked[newBallIndex].isUnlocked = true;
     }
     public bool CheckIfBallUnlocked(int ballId)
