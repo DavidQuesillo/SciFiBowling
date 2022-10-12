@@ -8,6 +8,7 @@ public class GameData : MonoBehaviour
     [SerializeField] private int coins;
     [SerializeField] public List<Balls> ballsUnlocked;
     [SerializeField] private Balls selectedBall;
+    [SerializeField] private GameObject defaultBall;
     //[SerializeField] private Balls ballSelected;
     [SerializeField] private int levelsBeat = 0;
 
@@ -19,13 +20,13 @@ public class GameData : MonoBehaviour
         this.coins = 0;
     }
 
-    private void Awake()
+    /*private void Awake()
     {
         for (int i = 0; i < ballsUnlocked.Count; i++)
         {
 
         }
-    }
+    }*/
 
     public int GetCoins()
     {
@@ -43,7 +44,15 @@ public class GameData : MonoBehaviour
     }
     public Balls GetSelectedBall()
     {
-        return selectedBall;
+        if (selectedBall != null)
+        {
+            return selectedBall;
+        }
+        else
+        {
+            selectedBall = defaultBall.GetComponent<Balls>();
+            return defaultBall.GetComponent<Balls>();
+        }
     }
     public void SetSelectedBall(Balls newBall)
     {

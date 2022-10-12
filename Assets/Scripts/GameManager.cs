@@ -2,11 +2,32 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     [SerializeField] private int coins;
     [SerializeField] private int goldTotal;
+
+    private void Awake()
+    {
+        /*if (Data.GetGameData().GetSelectedBall() != null)
+        {
+            Debug.Log(Data.GetGameData().GetSelectedBall().gameObject.name);
+            GameObject playerball = Instantiate(Data.GetGameData().GetSelectedBall().gameObject);
+            Camera.main.GetComponent<CinemachineBrain>().ActiveVirtualCamera.Follow = playerball.transform;
+            Camera.main.GetComponent<CinemachineBrain>().ActiveVirtualCamera.LookAt = playerball.transform;
+        }
+        else
+        {
+            Debug.Log("ERRORRRR");
+        }*/
+
+        //GameObject playerball = GameObject.FindGameObjectWithTag("Player");
+        //Camera.main.GetComponent<CinemachineBrain>().ActiveVirtualCamera.Follow = playerball.transform;
+        //Camera.main.GetComponent<CinemachineBrain>().ActiveVirtualCamera.LookAt = playerball.transform;
+    }
 
     void Start()
     {
@@ -46,7 +67,7 @@ public class GameManager : MonoBehaviour
 
     public void SaveValues()
     {
-        Data.GetGameData().SetCoins(coins);
+        Data.GetGameData().SetCoins(+coins);
         //Data.GetGame().SetHP(player.GetHealth());
 
         Data.Save();
