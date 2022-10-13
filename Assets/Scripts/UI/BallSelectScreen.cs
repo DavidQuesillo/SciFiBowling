@@ -18,11 +18,13 @@ public class BallSelectScreen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Data.GetGameData().ballsUnlocked == null)
-        {
-            Data.GetGameData().ballsUnlocked = balls;
+        /*if (Data.GetGameData().ballsUnlocked == null)
+        {*/
+            //Data.GetGameData().ballsUnlocked = balls;
+            Data.GetGameData().SetBallsList(balls);
+        Data.GetGameData().SetSelectedBall(balls[0]);
             Data.Save();
-        }
+        //}
         Debug.Log(balls[0].isUnlocked.ToString());
         //selectedBall = Data.GetGameData().GetSelectedBall();
         if (Data.GetGameData().GetSelectedBall() == null)

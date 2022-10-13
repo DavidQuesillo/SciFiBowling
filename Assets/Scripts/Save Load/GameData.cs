@@ -42,6 +42,10 @@ public class GameData : MonoBehaviour
     {
         return levelsBeat;
     }
+    public void SetBallsList(List<Balls> newList)
+    {
+        ballsUnlocked = newList;
+    }
     public Balls GetSelectedBall()
     {
         if (selectedBall != null)
